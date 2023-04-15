@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&family=Inter:wght@400;700;800&family=Poppins:ital,wght@0,700;1,400;1,800&display=swap" rel="stylesheet">
+  
+  <title>Frontend Mentor | Age calculator app</title>
+
+  <style>
+    
+  </style>
+</head>
+<body>
+
+  <main>
+    <section class="main-content">
+      <form id="data-form" class="form-content">
+        <div class="input-group">
+          <div id="day" class="input-and-label">
+            <h3>DAY</h3>
+            <input class="input-field" placeholder="DD" name="day" maxlength="2" type="text">
+          </div>
+      
+          <div id="month" class="input-and-label">
+            <h3>MONTH</h3>
+            <input class="input-field" placeholder="MM" name="month" maxlength="2" type="text">
+          </div>
+      
+          <div id="year" class="input-and-label">
+            <h3>YEAR</h3>
+            <input class="input-field" placeholder="YYYY" name="year" maxlength="4" type="text">
+          </div>
+        </div>
+        <div class="button-and-bar">
+          <div class="bar"></div>
+          <button type="submit" id="form-button" class="button">
+            <img src="./assets/images/icon-arrow.svg" alt="imagem do botão">
+          </button>
+        </div>
+      </form>
+    </section>
+    <section class="data-result">
+      <div>
+        <h1>
+          <span class="emphasis" id="years">--</span> 
+          years
+        </h1>
+      </div>
+      <div>
+        <h1>
+          <span class="emphasis" id="months">--</span>
+          months
+        </h1>
+      </div>
+      <div>
+        <h1>
+          <span class="emphasis" id="days">--</span>
+          days
+        </h1>
+      </div>
+    </section>
+  </main>
+  
+  <footer>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Your Name Here</a>.
+    </div>
+  </footer>
+
+  <script src="./assets/js/script.js"></script>
+</body>
+</html>
